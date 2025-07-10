@@ -17,6 +17,14 @@ public class For{
         // }
         // System.out.println("Sum of 1st "+n+" natural nos = "+sum);
 
-        
+        // Q3. Print SQUARE Pattern
+        // ****
+        // ****
+        // ****
+        // ****
+
+        for(int i=1;i<=4;i++){
+            System.out.println("****");
+        }
     }
 }
