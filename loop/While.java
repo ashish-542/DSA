@@ -2,6 +2,8 @@ import java.util.*;
 
 public class While {
     public static void main(String args[]){
+        // While Loop
+
         // Q1. Print "Hello" 100 times
         // int i=1;
         // while(i<=100){
