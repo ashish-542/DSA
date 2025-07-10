@@ -22,9 +22,8 @@ public class For{
         // ****
         // ****
         // ****
-
-        for(int i=1;i<=4;i++){
-            System.out.println("****");
-        }
+        // for(int i=1;i<=4;i++){
+        //     System.out.println("****");
+        // }
     }
 }

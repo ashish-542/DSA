@@ -40,5 +40,17 @@ public class While {
         //     i++;
         // }
         // System.out.println("Sum of 1st "+n+" Natural nos. = "+sum);
+
+        // Q5. Print reverse of a no.
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter any no. - ");
+        // int n = sc.nextInt();
+        // int rev = 0;
+        // while(n>0){
+        //     int lastDigit = n%10;
+        //     rev = (rev*10) + lastDigit;
+        //     n /=10;
+        // }
+        // System.out.println("Reverse of a no. = "+rev);
     }
 }
