@@ -75,7 +75,7 @@ public class LoopQues{
         // if(n<0){
         //     System.out.println("Error - You entered a negative no.");
         // }else{
-        //     if(n==0 && n==1){
+        //     if(n==0 || n==1){
         //         factorial = 1;
         //     }else{
         //         for(int i=2;i<=n;i++){
