@@ -5,3 +5,5 @@ only for Logic Building
 
 1. Star Pattern
 2. Inverted Star Pattern
+3. Half Pyramid Pattern
+4. Character Pattern
