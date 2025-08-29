@@ -1,0 +1,6 @@
+Nested Loops - Loop under Loop
+
+not Imp for placements
+only for Logic Building
+
+1. Star Pattern
