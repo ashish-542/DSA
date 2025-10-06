@@ -11,7 +11,7 @@ We can use List like structure for this i.e. Array.
 
 Definition: List of elements of same data type placed in a contiguous memory location.
 
--> Operations:
+-> 4 Operations:
 
 1. Create
 2. Input
@@ -21,14 +21,14 @@ __________________________________________
 
 1. Create:
 
-- Syntax: dataType arrayName[] = new dataType[size];
+- Syntax: dataType arrayName[] = new dataType[size]; // new keyword is for memory allocation
 - examples
-a. int marks[] = new int[50];
+a. int marks[] = new int[50]; // int is of 4bytes -> 1000,1004,1008, ...
 b. int num[] = {10, 20, 30};
 c. int nos[] = {4, 5, 6};
 d. String fruits[] = {"apple", "mango", "pear"};
 
-In example a. , as no values are passed, they will have 0 (default int value).
+In example a. , as no values are passed, they will have 0 (default/null int value).
 Default value for String is "" and char is ''.
 
 __________________________________________
@@ -53,7 +53,7 @@ _____________________________________
 4. Update
 
 > marks[2] = 100 // OR marks[2] = marks[2] + 1;
-> System.out.println(marks[0]);
+> System.out.println(marks[2]);
 
 _____________________________________
 
