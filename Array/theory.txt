@@ -1,0 +1,73 @@
+Arrays:
+
+To store marks of three subjects - Phy, Chem and Math, we used to use 3 different variables :
+> int phy = 90;
+> int chem = 98;
+> int math = 100;
+
+But for marks of 100 subjects , we cannot make separate variables.
+
+We can use List like structure for this i.e. Array.
+
+Definition: List of elements of same data type placed in a contiguous memory location.
+
+-> Operations:
+
+1. Create
+2. Input
+3. Output
+4. Update
+__________________________________________
+
+1. Create:
+
+- Syntax: dataType arrayName[] = new dataType[size];
+- examples
+a. int marks[] = new int[50];
+b. int num[] = {10, 20, 30};
+c. int nos[] = {4, 5, 6};
+d. String fruits[] = {"apple", "mango", "pear"};
+
+In example a. , as no values are passed, they will have 0 (default int value).
+Default value for String is "" and char is ''.
+
+__________________________________________
+
+2. Input:
+
+> int marks[] = new int[100];
+> marks[0] = sc.nextInt();
+> marks[1] = sc.nextInt();
+> marks[2] = sc.nextInt();
+
+__________________________________________
+
+3. Output
+
+> System.out.println(marks[0]);
+> System.out.println(marks[1]);
+> System.out.println(marks[2]);
+
+_____________________________________
+
+4. Update
+
+> marks[2] = 100 // OR marks[2] = marks[2] + 1;
+> System.out.println(marks[0]);
+
+_____________________________________
+
+- To get length of an array , we use Dot Operator (.length):
+
+> System.out.println(marks.length);
+
+_____________________________________
+
+- Passing array as Function Arguments
+
+- 2 ways of passing arguments:
+
+1. pass by value : changes made in functions are not reflected in main function.
+2. pass by reference : changes made in functions are reflected in main function.
+
+- Arrays are always passed by reference.
