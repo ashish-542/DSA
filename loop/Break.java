@@ -20,6 +20,7 @@ public class Break {
                 break;
             }
             System.out.println("No. is "+n);
+            sc.close();
         }
     }
 }

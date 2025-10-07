@@ -53,5 +53,7 @@ public class UserInput{
         // System.out.println("Enter your full name.");
         // String name = sc.nextLine();
         // System.out.println("Hello "+name);
+
+        sc.close();
     }
 }
